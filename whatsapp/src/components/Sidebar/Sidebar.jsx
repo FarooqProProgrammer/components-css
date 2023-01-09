@@ -5,6 +5,7 @@ import InsertCommentIcon from '@mui/icons-material/InsertComment';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import SearchIcon from '@mui/icons-material/Search';
+import UserProfile from '../userProfile';
 const Sidebar = () => {
   return (
     <div className='sidebar'>
@@ -24,6 +25,13 @@ const Sidebar = () => {
                         <SearchIcon/>
                         <input type={"text"}  placeholder="Search..."/>
                     </div>
+            </div>
+            <div className="sidebar-chat">
+                <UserProfile name="Farooq"/>
+                <UserProfile name="Khalid"/>
+                <UserProfile name="Ahmed"/>
+                <UserProfile name="Usman"/>
+                
             </div>
     </div>
   )

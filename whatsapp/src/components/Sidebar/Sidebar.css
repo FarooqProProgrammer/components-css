@@ -62,4 +62,15 @@
     background-color: transparent;
     border: none;
     outline: none;
+    margin-left: 6px;
+    margin-bottom: 2px;
+    width: 80%;
+}
+.sidebar-chat{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    flex: 1;
+
 }
